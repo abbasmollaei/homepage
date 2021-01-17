@@ -219,6 +219,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #education h2 {
 	color: #54d0dd;
 }
+#about .education-text {
+	color: #54d0dd;
+}
 .categories {
 	padding-bottom: 30px;
 	text-align: center;
