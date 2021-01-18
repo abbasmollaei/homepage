@@ -170,7 +170,7 @@ hr {
 }
 .intro h1 {
 	color: rgba(255,255,255,0.9);
-	font-size: 64px;
+	font-size: 58px;
 	font-weight: 600;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -198,13 +198,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 }
 #about .about-text {
 	margin-left: 10px;
+	font-size:16px;
+	line-height: 180%;
 }
 #about img {
 	float: right;
 }
 #about p {
 	margin-bottom: 30px;
-	line-height: 21px;
+	line-height: 180%;
 }
 /* Education Section */
 #education {
@@ -222,6 +224,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 #education .education-text {
 	color: #54d0dd;
 }
+#education .education-text ul {
+	list-style-type: disc;
+	font-size: 16px;
+}
 /* Publication Section */
 #publication {
 	padding: 120px 0;
@@ -234,6 +240,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#54d0dd', end
 }
 #publication .publication-text {
 	margin-left: 10px;
+}
+#publication .publication-text ul {
+	list-style-type: disc;
+	font-size: 16px;
+	line-height: 180%;
 }
 #publication img {
 	float: right;
